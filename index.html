@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Clase unidad IV cajas responsive</title>
+		<meta charset="utf-8"/>
+		<link href ="estiloscajas.css" type ="text/css" rel ="stylesheet"/>
+		<link rel="stylesheet" href="iconos.css" type="text/css">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0">
+
+	<script type="text/javascript" src="codigojavascript.js"></script>
+</head>
+<body>
+	<header>
+		<div id="marca">
+			<h1>Internet IoT con Node-Red</h1>
+		</div>
+		<nav id="botonera">
+			<ul >
+				<li><a href="#contenido_principal">inicio</a></li>
+				<li><a href="#nosotros">nosotros</a></li>
+				<li><a href="#servicios">servicios</a></li>
+				<li><a href="#contactos">contactos</a></li>
+			</ul>
+		</nav>
+
+	</header>
+	<section id="contenido_principal">
+		<article id="contenidocaja1">
+			<h2>Sólo JavaScript</h2>
+			<h4>email <script type="text/javascript">
+			document.write(correo)
+			</script></h4>
+			<p>nombre de usuario <script type="text/javascript">
+			document.write(nombre)
+			
+			</script></p>
+			<p>Aprenderemos <script type="text/javascript">
+				document.write(lenguaje)
+				
+			</script></p>
+			<p>Dispositivos a conectar <script type="text/javascript">
+				document.write(dispositivos_totales)
+				
+			</script></p>
+
+			   <p>Con <a href="https://nodered.org/">Node-Red</a>, no te limites con simples nodos y funcionalidades. Como Node-Red está construido sobre Node.js, todo está impulsado por <a href="https://www.toptal.com/javascript">JavaScript</a>. Los nodos son, de hecho, Node.js módulos. Se pueden encontrar en <a href="http://flows.nodered.org/"> http://flows.nodered.org/</a>, entonces para añadirlos a tu panel de la izquierda se pueden simplemente “instalar con NPM “. De hecho, puedes desarrollar tu propio flujo y subirlos al repositorio de flujo. Las aplicaciones pueden ser tan complejas como desees ya que puedes escribir JavaScript en los nodos de función dentro del editor de código que proporciona Node-Red.</p>
+			   <p>Ya que la plataforma se basa en Node.js, ésta se aprovecha del mismo modelo orientado a eventos y sin bloqueos. Así que una aplicación construida en Node-Red puede ejecutarse en hardware de bajo costo como el Raspberry Pi, así como en la nube.</p>
+			   
+
+		</article>
+		<article id="contenidocaja2">
+			<h2>Flow-based programming for the Internet of Things</h2>
+			<p>A través de la programación, hacemos que las máquinas imiten un comportamiento complejo siguiendo secuencias de instrucciones simples. Utilizar lenguajes de programación textual como Asambly, C, Python y JavaScript, es una de las formas principales de hacerlo. Los diseñadores de estos lenguajes de programación han pasado horas y horas tratando de hacer que la experiencia de los programas de escritura sean lo más fácil posible a través de una sintaxis expresiva, fuertes construcciones de programación y cadenas de herramientas poderosas. Sin embargo, todos estos lenguajes de programación comparten un rasgo común: el código fuente textual.</p>
+			<p>Escribir programas en texto funciona y en la mayoría de los casos funciona bien. Sin embargo, la capacidad de expresar programas visualmente es a menudo deseable. Ser capaz de diseñar el flujo de información a través de diversos componentes de un sistema más grande es normalmente todo lo que se necesita. Las herramientas visuales de programación también son indulgentes con cualquier persona que sea nuevo en la programación y que les es difícil manejar diversos conceptos como las variables, indicadores, señales, alcances, y así sucesivamente.</p>
+
+		</article>
+		<div id="contenidocaja3">
+			
+
+		</div>
+		<article id="contenidocaja4">
+				<h1><a href="#" onclick="juego()">A jugar</a></h1>
+				
+				<h4>Elige un numero que coincida con el orden de la letra</h3>
+		
+					
+		</article>
+		<div id="contenidocaja5">
+
+		</div>
+    <article id="nosotros">
+		<p>Las aplicaciones para dispositivos conectados a internet son amplias. Múltiples categorías han sido sugeridas, pero la mayoría está de acuerdo en separar las aplicaciones en tres principales ramas de uso: consumidores, empresarial, e infraestructura.22​23​ George Osborne, ex miembro del gabinete encargado de finanzas, propone que la IoT es la próxima etapa en la revolución de la información, refiriéndose a la interconectividad de todo: desde el transporte urbano hasta dispositivos médicos, pasando por electrodomésticos.</p>
+    </article>
+    <article id="servicios">
+			<nav id="botonera_servicios">
+					<ul>
+						<li><a href="#servicios" onclick="mostrarcontenido('grafico') ,quitarcontenido('web'),quitarcontenido('multicanal')">diseño grafico</a></li>
+						<li><a href="#servicios" onclick="mostrarcontenido('web'),quitarcontenido('grafico'),quitarcontenido('multicanal')">diseño web</a></li>
+						<li><a href="#servicios" onclick="mostrarcontenido('multicanal'),quitarcontenido('grafico'),quitarcontenido('web')">diseño multinacal</a></li>
+					</ul>
+				</nav>
+				<div id="grafico" style="display: none" >
+					<h2>diseño grafico</h2>
+					<img src="imagenes/iot-top-banners.jpg">
+				</div>
+				<div id="web" style="display: none">
+					<h2>diseñoweb</h2>
+					<img src="imagenes/sh_iot-infographic_496519297.jpg">
+				</div>
+				<div id="multicanal" style="display: none">
+					<h2>diseño multicanal</h2>
+					<img src="imagenes/biggest-security-main.jpg">
+				</div>
+
+	</article>
+	    <footer id="contactos">
+			<article id="datos">
+				<h3>¿Qué sigue?</h3>
+				<p>Ambos proyectos son de open source y realmente han involucrado a las comunidades. Si deseas comenzar a crear tus propios flujos o nodos al Node-Red, echa un vistazo a su documentación oficial. Sigue los pasos descritos allí y podrás publicar tu propio nodo o flujo en poco tiempo.</p>
+			</article>
+			<nav id="redes">
+			<ul>
+				<li><a href="https://github.com" target="new"><span class="icon-github"></span></a></li>
+				<li><a href="https://www.youtube.com/" target="new"><span class="icon-play"></span></a></li>
+				<li><a href="https://es.wikipedia.org/wiki/HTML5" target="new"><span class="icon-html-five"></span></a></li>
+				<li><a href="https://www.linux.org/" target="new"><span class="icon-tux" ></span></a></li>
+			</ul>
+			</nav>
+		</footer>
+
+	</section>
+	
+	
+</body> <!-- shift+alt+a para comentarios -->
+
+</html>

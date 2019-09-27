@@ -1,0 +1,549 @@
+body{
+    background-color: #ada9a8;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+h1{
+    font-size: 24px;
+    color:white;
+    margin-top: 0;
+    padding: 30px;/* espacio que del borde hacia dentro */
+    box-sizing: content-box;
+    /*box-sizing: border-box;*/
+}
+
+header{
+    width: 960px;
+    height:90px;
+    background-color: rgb(33, 189, 181);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#marca{
+    width: 400px;
+    height:90px;
+    float: left;
+}
+#botonera ul, #redes ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;/*lleva la lista a cero*/
+}
+#botonera ul li a{
+    display: block;
+
+    color: rgb(93, 221, 19);
+
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px 15px;
+    width: 65px;
+    height:30px;
+    box-sizing: content-box;
+    text-align: center;
+}
+#botonera ul li, #redes ul li{
+    display: inline-block;
+
+}
+#botonera ul li a:hover {
+    background-color: rgb(187, 255, 0);
+    color: azure;
+}
+/*caja botonera*/
+#botonera {
+
+    width: 400px;
+    height:90px;
+    float: right;  /*lleva la caja hacia la derecha y habilita espacio hacia la izquierda*/
+}
+
+#contenido_principal{
+        width: 960px;
+        height:800px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-size: 15px;
+
+
+}
+footer{
+    width: 960px;
+    height:134px;
+    background-color: rgb(7, 11, 124);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    float: left;
+   
+}
+
+
+#contenidocaja1{
+    width: 310px;
+    height:800px;
+    background-color: rgb(63, 73, 207);
+    float: right;
+    color: white;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: justify;
+}
+#contenidocaja1 a{
+    text-decoration: none;
+    color: aqua;
+}
+
+#contenidocaja3{
+    width: 310px;
+    height:190px;
+    background-image: url(imagenes/img1.jpg);/*INSERTAR IMAGEN*/
+    background-size: cover;/*ajusta la imagen a la caja*/
+    float: right;
+    margin-right: 10px;
+}
+#contenidocaja4{
+    width: 310px;
+    height:190px;
+    background-color: #5596e6;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+#contenidocaja4 h4{
+    color: white;
+   box-sizing: content-box;
+   padding: 20px 10px;
+   text-align: center;
+   
+
+}
+#contenidocaja4 h1 a{
+    text-decoration: none;
+    list-style-type: none;
+
+    color: rgb(223, 18, 18);
+   font-size: 30px;
+   padding: 10px 50px;
+   text-align: center;
+   
+}
+
+  #contenidocaja5{
+    width: 310px;
+    height:400px;
+
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(imagenes/imagesnode.jpg);
+    background-size:cover;
+  }
+#contenidocaja2 {
+    width: 320px;
+    height:800px;
+    color: white;
+    background-color:#5596e6;/*#5596e6*/
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align:justify;
+}
+
+#datos{
+    width: 300px;
+    height:134px;
+    background-color: rgb(122, 115, 120);
+    
+    font-size: 12px;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 5px;
+    float: left;
+}
+#redes{
+    width: 100px;
+    height:40px;
+    
+    margin-top: 10px;
+
+    margin-right: 5px;
+
+    float: right;
+}
+#redes ul li a{
+    display:block;
+    color: #a8a09e;
+   text-decoration: none;
+    font-size: 17px;
+    box-sizing: content-box;
+    margin-right: 3px;
+
+}
+#redes ul li a:hover{
+    color:white; 
+}
+
+#nosotros{
+ width:960px;
+ height: 200px;
+ margin-top: 10px;
+ background-color: rgb(209, 91, 91);
+ float:left;
+}
+#servicios{
+    width:960px;
+    height: auto;
+    margin-top: 10px;
+    background-color: rgb(231, 231, 102);
+    float: right;
+  } 
+  #grafico , #web , #multicanal{
+      padding: 20px;
+      
+  }
+ 
+                         /*RESPONSIVE WEB ADAPTABLE*/
+@media all and (min-width:600px) and (max-width:1023px) {
+  h1{
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+  }
+header{
+      width: 580px;
+     
+
+}
+  #marca{
+      width: 200px;
+}
+#botonera ul li a{
+      display: block;
+      font-size: 13px;
+      padding: 15px 15px;
+      width: 53px;
+      height:30px;
+      line-height: 30px;
+     
+      margin-right: 0px;
+    }
+      #botonera {
+
+      width: 350px;
+        /*lleva la caja hacia la derecha y habilita espacio hacia la izquierda*/
+  }
+    #contenido_principal{
+          width: 580px;
+          height:800px;
+
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10px;
+          font-size: 15px;
+
+
+  }
+  footer{
+      width: 580px;
+      height:134px;
+      
+   
+      
+  }
+  #contenidocaja1{
+      width: 200px;
+     font-size: 13px;
+     
+}
+  #contenidocaja1 a{
+      text-decoration: none;
+      color: aqua;
+  }
+
+  #contenidocaja3{
+      width: 170px;
+      margin-right: 5px;
+      
+      
+  }
+  #contenidocaja4{
+      width: 170px;
+      margin-right: 5px;
+      margin-top: 5px;
+
+  }
+  #contenidocaja4 h1{
+      color: white;
+     box-sizing: content-box;
+     padding: 20px 10px;
+     text-align: center;
+
+  }
+    #contenidocaja5{
+      width: 170px;
+      height:410px;
+      margin-right: 5px;
+      margin-top: 5px;
+      background-image: url(imagenes/Untitled-design-27.jpg);
+      background-size: cover;
+
+      
+    }
+  #contenidocaja2 {
+      width: 200px;
+      margin-right: 5px;
+      font-size: 13px;
+    
+    float: right;  
+}
+
+  #datos{
+      width: 190px;
+      height:134px;
+      background-color: rgb(122, 115, 120);
+      
+      font-size: 9px;
+     
+  }
+  #redes{
+      width: 100px;
+      height:40px;
+      margin-top: 10px;
+
+      margin-right: 0px;
+
+  }
+  #redes ul li a{
+      display:block;
+      color: #a8a09e;
+     text-decoration: none;
+      font-size: 13px;
+      box-sizing: content-box;
+      margin-right: 5px;
+
+  }
+  #redes ul li a:hover{
+      color:white;
+  }
+  #nosotros{
+   width:580px;
+   margin-top: 5px;
+   
+  }
+  #servicios{
+    width:580px;
+    
+    margin-top: 5px;
+    
+  }
+}
+@media all and (max-width:599px){
+   
+    
+    header{
+        width: 90%;
+        height:auto;
+        background-color: rgb(33, 189, 181);
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    h1{
+        text-align: center;
+    }
+    #marca{
+        width: 100%;
+        height:auto;
+        float: none;
+        text-align: center;
+    
+    }
+    #botonera ul, #redes ul {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;/*lleva la lista a cero*/
+    }
+    #botonera ul li a{
+        display: block;
+    
+        color: rgb(93, 221, 19);
+    
+        text-decoration: none;
+        font-weight: bold;
+        padding: 15px;
+        width: 100%;
+        height:auto;
+        box-sizing: border-box;
+        text-align: center;
+        margin-left: auto;
+    }
+    #botonera ul li, #redes ul li{
+        display:block;
+    }
+    /*caja botonera*/
+    #botonera {
+    
+        width: 100%;
+        height:auto;
+        float: none;  /*lleva la caja hacia la derecha y habilita espacio hacia la izquierda*/
+    }
+    
+    #contenido_principal{
+            width: 90%;
+            height:auto;
+    
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            font-size: 15px;
+    
+    
+    }
+    footer{
+        width: 100%;
+        height:auto;
+        background-color: rgb(7, 11, 124);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        float: none;
+       
+    }
+    
+    
+    #contenidocaja1{
+        width: 100%;
+        height:auto;
+        background-color: rgb(63, 73, 207);
+        float: right;
+        color: white;
+        box-sizing: border-box;
+        padding: 5px;
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+    #contenidocaja1 a{
+        text-decoration: none;
+        color: aqua;
+    }
+    
+    #contenidocaja3{
+        width: 100%;
+        height:100px;
+        background-image: url(imagenes/IoT2.jpg);/*INSERTAR IMAGEN*/
+        background-size: cover;/*ajusta la imagen a la caja*/
+        float: none;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    #contenidocaja4{
+        width: 100%;
+        height:auto;
+        background-color: #5596e6;
+        float: none;
+        margin-top: 10px;
+        margin-right: 10px;
+    
+    }
+    #contenidocaja4 h1{
+        color: white;
+       box-sizing: content-box;
+       padding: 20px 10px;
+       text-align: center;
+    
+    }
+      #contenidocaja5{
+        width: 100%;
+        height:80px;
+    
+        float: none;
+        margin-top: 0px;
+        margin-right: 10px;
+        background-image: url(imagenes/iot3.png);
+        background-size:cover;
+      }
+    #contenidocaja2 {
+        width: 100%;
+        height:auto;
+        color: white;
+        background-color:#5596e6;/*#5596e6*/
+        float:none;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align:justify;
+        margin-top: 5px;
+    }
+    
+    #datos{
+        width: 100%;
+        height:auto;
+        background-color: rgb(122, 115, 120);
+        
+        font-size: 12px;
+        text-align: justify;
+        box-sizing: border-box;
+        padding: 5px;
+        float: none;
+    }
+    #redes{
+       
+        width: 100%;
+        height:auto;
+        
+        margin-top: 10px;
+        margin: auto;
+    
+        margin-right:auto;
+        text-align: center;
+    
+        float: none;
+    }
+    #redes ul li a{
+        display:inline-block;
+        color: #a8a09e;
+       text-decoration: none;
+        
+        box-sizing:border-box;
+        
+        
+       
+        text-align: center;
+
+    
+    }
+    #redes ul li a:hover{
+        color:white; 
+    }
+    #redes ul li{
+        display: inline;
+    }
+    
+    #nosotros{
+     width:100%;
+     height: auto;
+     font-size: 13px;
+     margin-top: 5px;
+     background-color: white;
+     float:none;
+     box-sizing: border-box;
+    text-align:justify;
+    }
+    #servicios{
+        width:100%;
+        font: bold;
+        font-size: 13px;
+        height:auto;
+        margin-top: 5px;
+        background-color: rgb(90, 218, 51);
+        float: none;
+        box-sizing: border-box;
+    text-align:justify;
+      } 
+
+}
